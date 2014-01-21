@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>LaravelBlade</string>
+	<key>ordering</key>
+	<array>
+		<string>A58A8867-B92D-427C-9573-9BEDD83E3F47</string>
+	</array>
+	<key>uuid</key>
+	<string>CF717F68-25D7-4395-A934-F486C8DE2769</string>
+</dict>
+</plist>
