@@ -13,7 +13,7 @@ In order to have both Blade template syntax highlighting and HTML highlighting w
 
 Installation
 ============
-Download [this repository](https://github.com/outofcontrol/Blade.tmbundle/archive/master.zip) to your machine, unzip and place the Blade.tmbundle in a happy place where it won't get deleted. I've placed mine in ~/Library/Application Support/Textmate/Bundles.
+Download [this repository](https://github.com/outofcontrol/Blade.tmbundle/archive/master.zip) to your machine, unzip, remove -master from the filename, and place the Blade.tmbundle in a happy place where it won't get deleted. I've placed mine in ~/Library/Application Support/Textmate/Bundles.
 
 Next, follow the tutorial [here](http://confluence.jetbrains.com/display/PhpStorm/TextMate+Bundles+in+PhpStorm) to register the Blade and html bundles with PHPStorm. 
 
