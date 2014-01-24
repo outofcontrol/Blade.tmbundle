@@ -1,24 +1,33 @@
-A Textmate Bundle for Laravel Blade Templates
+A Textmate Bundle for PHPStorm to give Laravel Blade Templates Syntax highlighting.
 
 Disclaimer
 ==========
 
-This is my first stab at creating a bundle and I'm still fairly new with PHPStorm. Feedback is encouraged!
+This is my first stab at creating a bundle and I'm still fairly new with PHPStorm. Blade.tmbundle is based on the Laravel Blade Highlighter by Eric Percifield [here](https://sublime.wbond.net/packages/Laravel%20Blade%20Highlighter here).
 
-This bundle is based heavily on the Laravel Blade Highlighter by Eric Percifield found [here](https://sublime.wbond.net/packages/Laravel%20Blade%20Highlighter here). I simply cleaned up the tmbundle and created a new syntactically correct version in TextMate. 
-
-Requirements
-============
-In order to have both Blade template syntax highlighting and HTML highlighting work together, you will need the html.tmbundle from [here](https://github.com/textmate/html.tmbundle).
+Results may vary. Feedback is welcome and encouraged!
 
 Installation
 ============
-Download [this repository](https://github.com/outofcontrol/Blade.tmbundle/archive/master.zip) to your machine, unzip, remove -master from the filename, and place the Blade.tmbundle in a happy place where it won't get deleted. I've placed mine in ~/Library/Application Support/Textmate/Bundles.
+* Download [this repository](https://github.com/outofcontrol/Blade.tmbundle/archive/master.zip) to your machine, unzip, remove -master from the filename, and place the Blade.tmbundle in a happy place where it won't get deleted. I've placed mine in ~/Library/Application Support/Textmate/Bundles so it is also available to TextMate 2. 
 
-Next, follow the tutorial [here](http://confluence.jetbrains.com/display/PhpStorm/TextMate+Bundles+in+PhpStorm) to register the Blade and html bundles with PHPStorm. 
+* Follow the tutorial [here](http://confluence.jetbrains.com/display/PhpStorm/TextMate+Bundles+in+PhpStorm) to register the Blade and html bundles with PHPStorm. 
 
-When you activate the Blade.tmbundle, you will see a warning in PHPStorm and the Apply button will not become active. 
+* When you activate the Blade.tmbundle, you will see this warning which can be safely ignored:
 
-`Some extensions declared in attached bundles are already used by native file types.`
+  `Some extensions declared in attached bundles are already used by native file types.`
 
-We are trying to register a file type (*.blade.php) which is already registered through PHP (*.php). Click on Okay, and then restart PHPStorm. If all went well, you should now have Syntax highlighting in your Blade templates.
+* Check Settings->File Types->Files supported via TextMate bundles and ensure that only *.blade.php is listed. If it is not listed, click on the + button and add it. If you get a warning something to the effect that something will be reassigned, do it. Reassign the extension to this bundle. 
+
+Changes
+=======
+* January 24, 2014: 
+  - Removed HTML Bundle requirement
+  - Add improved PHP highlighting
+  - Bundle works with light themes now
+  - Tested on PHPStorm 7.1 with OS X and Fedora 17
+  - Renamed from LaravelBlade to Blade
+
+ToDo
+====
+* Add auto complete
