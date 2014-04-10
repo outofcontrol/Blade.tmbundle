@@ -3,7 +3,7 @@ A Textmate Bundle for PHPStorm to give Laravel Blade Templates Syntax highlighti
 Disclaimer
 ==========
 
-This is my first stab at creating a bundle and I'm still fairly new with PHPStorm. Blade.tmbundle is based on the Laravel Blade Highlighter by Eric Percifield [here](https://sublime.wbond.net/packages/Laravel%20Blade%20Highlighter here).
+This is my first stab at creating a bundle and I'm still fairly new with PHPStorm. Blade.tmbundle is based on the Laravel Blade Highlighter by Eric Percifield [here](https://sublime.wbond.net/packages/Laravel%20Blade%20Highlighter).
 
 Results may vary. Feedback is welcome and encouraged!
 
